@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body {
     margin: 0;
-    background: #35495E;
+    background: #292929;
     font-family: 'Montserrat',sans-serif;
 }
 
@@ -16,21 +16,22 @@ ul {
     padding: 0;
 }
 
-.container {
+.container-head {
     text-align: center;
-<<<<<<< HEAD
-=======
-    padding: .8em 1.2em;
->>>>>>> a344549bf3c0b37c3b0501bb5833c2bf4e893552
-    padding-left: 0;
+    padding-left: .9em;
 }
+.title{
+    text-align: center;
+}
+
 .orange-container{
     text-align: center;
     padding: .8em 1.2em;
 
 }
  .logo {
-     width: 130px;
+     width: 100px;
+     padding-top: 10px;
  }
 
 .hide-mobile{
@@ -44,10 +45,13 @@ ul {
 
 .menu {
     width: 25px;
-    margin-top: 45%;
+    margin-top: 75%;
+    margin-right: 25%;
 }
 
 .wallpaper{
     width: 130%;
     padding-left: 0;
+    padding-top: 12px;
 }
+
