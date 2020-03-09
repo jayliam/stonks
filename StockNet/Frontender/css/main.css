@@ -29,4 +29,13 @@ ul {
      width: 130px;
  }
 
+.hide-mobile{
+    display: none;
+}
+
+ header {
+    display: flex;
+    justify-content: space-between;
+}
+
 
