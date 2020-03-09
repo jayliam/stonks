@@ -28,3 +28,8 @@ ul {
  .logo {
      width: 130px;
  }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+ }
