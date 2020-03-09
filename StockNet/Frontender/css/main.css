@@ -18,7 +18,11 @@ ul {
 
 .container {
     text-align: center;
+<<<<<<< HEAD
+=======
     padding: .8em 1.2em;
+>>>>>>> a344549bf3c0b37c3b0501bb5833c2bf4e893552
+    padding-left: 0;
 }
 .orange-container{
     text-align: center;
@@ -43,4 +47,7 @@ ul {
     margin-top: 45%;
 }
 
-
+.wallpaper{
+    width: 130%;
+    padding-left: 0;
+}
