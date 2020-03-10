@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,800&display=swap');
 body {
     margin: 0;
     background: #292929;
-    //font-family: 'Montserrat',sans-serif;
-    font-family: sans-serif;
+    font-family: 'Montserrat',sans-serif;
+    //font-family: sans-serif;
 }
 a { 
     color:white;
@@ -36,7 +37,6 @@ ul {
 
 .orange-container{
     margin-top: -1em;
-    //position: absolute;
     text-align: center;
     width: 100%;
     background: #EE8572;
@@ -65,6 +65,7 @@ ul {
     margin-bottom: 30px;
 }
 .footer-links{
+    font-weight: 400;
     margin-bottom: 30px;
     margin-top: 20px;
 }
@@ -89,7 +90,6 @@ ul {
 }
 .title{
 
-    font-family: sans-serif;
     position: absolute;
     text-align: center;
     top: 0%;
@@ -150,7 +150,7 @@ footer{
 
 }
 .ctabttn{
-    padding-top: 9px;
+    padding-top: 10px;
     padding-bottom: 3px;
     background: #292929;
     height: 30px;
