@@ -6,6 +6,10 @@ body {
     font-family: 'Montserrat',sans-serif;
     //font-family: sans-serif;
 }
+.container-head{
+    width: 100%;
+    text-align: center;
+}
 a { 
     color:white;
     text-decoration: none;
@@ -245,7 +249,7 @@ nav ul li a:hover {
         width: 100%;
         height: 800px;
         object-fit: cover;
-        
+      
     }
     .title h1{
 
@@ -346,5 +350,45 @@ nav ul li a:hover {
     .cautiontext{
         font-size: 110%;
     }
-
+    nav ul{
+        width: 40%;
+    }
+    .logo {
+    margin-left: 70px;
+    }
+    .container-head{
+        width: 80%;
+    }
+    .show-desktop{
+        display: block;
+        margin: 0 auto 13% auto;
+    }
+    .hide-desktop{
+        display: none;
+    }
+    nav ul{
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+    }
+    nav ul li{
+        float: left;
+        padding-top: 1.2em;
+    }
+    nav ul li a{
+        color :white;
+        background-color: inherit;
+        text-align: right;
+        padding : 1em 2em;
+    }
+    nav ul li a:hover {
+        color: rgb(116, 116, 116);
+        background-color:inherit;
+    }
+}
+@media only screen and (min-width: 1024){
+  
 }
