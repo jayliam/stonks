@@ -54,4 +54,14 @@ ul {
     padding-left: 0;
     padding-top: 12px;
 }
-
+.txtimage{
+    position: relative;
+}
+.title{
+    position: absolute;
+    text-align: center;
+    bottom: 6%;
+    color: black;
+    padding: 20% 20% 20% 20%;
+    font-size: 110%;
+}
