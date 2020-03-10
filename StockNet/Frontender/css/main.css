@@ -51,11 +51,23 @@ ul {
      width: 100px;
      padding-top: 10px;
  }
+.logofooter {
+     width: 100px;
+     padding-top: 10px;
+     margin-bottom: 12px;
+ }
 
 .hide-mobile{
     display: none;
 }
-
+.adress{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.footer-links{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
  header {
     display: flex;
     justify-content: space-between;
