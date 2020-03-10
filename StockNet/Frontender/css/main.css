@@ -35,6 +35,8 @@ ul {
 }
 
 .orange-container{
+    margin-top: -1em;
+    //position: absolute;
     text-align: center;
     width: 100%;
     background: #EE8572;
@@ -45,7 +47,7 @@ ul {
 .orange-container ul {
     transform: skewY(-3deg);
 }
- .logo {
+.logo {
      width: 100px;
      padding-top: 10px;
  }
@@ -89,10 +91,11 @@ ul {
 .aplusbttn{
     padding-top: 9px;
     padding-bottom: 3px;
-    background: #292929;
+    background: #EE8572;
     height: 30px;
     width: 150px;
     margin-left: 4em;
+    margin-top: 3em;
     border-radius: 45px;
     font-weight: 700;
 }
@@ -103,6 +106,7 @@ ul {
     width: 15em;
     margin-bottom: 5em;
     border-radius: 30px;
+    height: 22em;
 }
 .report-icon-container{
     
@@ -110,6 +114,7 @@ ul {
     width: 15em;
     margin-bottom: 5em;
     border-radius: 30px;
+    height: 22em;
 }
 .caution-icon-container{
     
@@ -118,6 +123,7 @@ ul {
     width: 15em;
     margin-bottom: 5em;
     border-radius: 30px;
+    height: 20em;
 }
 
 footer{
@@ -144,4 +150,34 @@ footer{
     font-weight: 700;
     transform: skewY(-3deg);
     margin-left: 10%;
+}
+.pc-icon{
+    margin-top: 20px;
+    margin-bottom: -10px;
+    width: 32%;
+}
+
+.caution-icon{
+    margin-top: -18px;
+    margin-bottom: 4px;
+    width: 28%;
+}
+.report-icon{
+    margin-top: 10px;
+    margin-bottom: -20px;
+    width: 55%;
+}
+h1{
+    font-size: 140%;
+}
+
+.pargcontainer{
+    margin-top: 25px;
+    font-size: 83%;
+    line-height: 1.2em;
+}
+.cautiontext{
+    margin-top: 27px;
+    font-size: 83%;
+    line-height: 1.2em;
 }
