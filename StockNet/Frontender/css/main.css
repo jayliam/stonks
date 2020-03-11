@@ -355,6 +355,8 @@ nav ul li a:hover {
     }
     .logo {
     margin-left: 70px;
+    width: 125px;
+
     }
     .container-head{
         width: 80%;
@@ -377,7 +379,9 @@ nav ul li a:hover {
     nav ul li{
         float: left;
         padding-top: 1.2em;
-    }
+        font-size: 100%;
+        position: static;
+       }
     nav ul li a{
         color :white;
         background-color: inherit;
