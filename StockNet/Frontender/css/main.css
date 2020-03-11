@@ -20,7 +20,7 @@ a:visited {
 }
 a:hover { 
     text-decoration: none; 
-    color:grey; 
+    color:white; 
 }
 
 p {
@@ -77,8 +77,7 @@ ul {
  header {
     display: flex;
     justify-content: space-between;
-    height: 90px;
-    margin-top: -12.5px;
+    margin-right: 1.7em;
 }
 
 .menu {
@@ -149,11 +148,11 @@ ul {
 }
 .aplusbttn:hover{
     background: rgb(228, 100, 77);
-    color :black;
+    color :white;
 }
 .headerconnexion:hover{
     background: rgb(228, 100, 77);
-    color :black;
+    color :white;
 }
 .headerbttn:hover{
     background:#EE8572;
@@ -201,7 +200,7 @@ footer{
 .ctabttn{
     padding-top: 10px;
     padding-bottom: 3px;
-    background: #292929;
+    background: #3b3b3b;
     height: 30px;
     width: 150px;
     /margin-left: 18em;
@@ -215,6 +214,10 @@ footer{
     display: inline-block
     
 }
+.ctabttn:hover{
+    background-color: #292929;
+}
+
 .pc-icon{
     margin-top: 20px;
     margin-bottom: -10px;
@@ -292,6 +295,10 @@ nav ul li a:hover {
         object-fit: cover;
       
     }
+    header {
+        height: 90px;
+        margin-top: -12.5px;
+    }
     .title h1{
 
         font-size: 200%;
@@ -309,6 +316,7 @@ nav ul li a:hover {
         display: inline-block;
         text-align: center;
         font-size: 120%;
+        color : white;
     }
     .orange-container{
         margin-top: -5em;
