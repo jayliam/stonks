@@ -72,7 +72,6 @@ ul {
     font-weight: 400;
     margin-bottom: 30px;
     margin-top: 20px;
-    ;
 }
  header {
     display: flex;
@@ -217,6 +216,26 @@ footer{
 .ctabttn:hover{
     background-color: #292929;
 }
+.ccbutton{
+    background: #3b3b3b;
+
+    border-radius: 45px;
+    font-weight: 700;
+    text-align: center;
+    transform: skewY(-3deg);
+    padding-top: 14px;
+    padding-bottom: 3px;
+    height: 40px;
+    width: 200px;
+    border-radius: 45px;
+    display: inline-block;
+    font-size: 120%;
+    margin-left: -11em;
+    margin-top: 2em;
+}
+.ccbutton:hover{
+    background-color: #292929;
+}
 
 .pc-icon{
     margin-top: 20px;
@@ -258,6 +277,7 @@ nav ul{
     height: 100%;
     z-index: 7;
     padding-top 3em;
+    
 
 }
 nav ul li a {
@@ -286,6 +306,7 @@ nav ul li a:hover {
     display: inline-block;
     text-align: center;
     margin-left: -220px;
+    
 }
 
 @media only screen and (min-width: 700px){
@@ -298,6 +319,31 @@ nav ul li a:hover {
     header {
         height: 90px;
         margin-top: -12.5px;
+    }
+    footer{
+        text-align: left ;
+        margin-left: 6em;
+        color: lavender;
+        margin-top: 6em;
+        
+    }
+    .logofooter {
+        width: 120px;
+        padding-top: 10px;
+        margin-bottom: 40px;
+    }
+    .footer-links{
+        font-weight: 400;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-left: 80em;
+        display: flex;
+        font-weight: 400;      
+    }
+    .footer-links li {
+        margin-left: 3em;
+        margin-top: -3em;
+        
     }
     .title h1{
 
@@ -321,14 +367,14 @@ nav ul li a:hover {
     .orange-container{
         margin-top: -5em;
         transform: skewY(0deg);
-        padding-bottom: 5em;
+        padding-bottom: 15em;
     }
     .orange-container ul{
         display: flex;
         margin-left: 13%;
         transform: skewY(0deg);
         margin-top: -10%;
-        margin-bottom: -2em;
+        margin-bottom: 3em;
         
     }
     .pc-icon-container{
@@ -389,8 +435,10 @@ nav ul li a:hover {
         transform: skewY(0deg);
         text-align: left;
         margin-left: 270px;
-        margin-top: 80px;
+        margin-top: 0;
+        
         font-size: 1.7em;
+        position: absolute;
         
     }
     .pargcontainer{
@@ -440,6 +488,25 @@ nav ul li a:hover {
     nav ul li a:hover {
         color: rgb(116, 116, 116);
         background-color:inherit;
+    }
+    .ccbutton{
+        background: #3b3b3b;
+    
+        border-radius: 45px;
+        font-weight: 700;
+        text-align: center;
+        transform: skewY(0deg);
+        padding-top: 18px;
+        padding-bottom: 3px;
+        height: 47px;
+        width: 250px;
+        border-radius: 45px;
+        display: inline-block;
+        font-size: 150%;
+        margin-left: 9em;
+        margin-top: 0em;
+        position: absolute;
+
     }
 }
 @media only screen and (min-width: 1024){
